@@ -1,0 +1,27 @@
+#main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("brady-bellini-_hpk_92Crhs-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#clock-container{
+    font-family: monospace;
+    color: rgb(76, 80, 84);
+    font-size: 6rem;
+    backdrop-filter: blur(5px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(74, 76, 78, 0.066);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
